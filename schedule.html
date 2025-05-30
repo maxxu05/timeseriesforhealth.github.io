@@ -29,7 +29,7 @@
           rgba(30, 100, 160, 0.90),
           rgba(0, 0, 0, 0.01)
         ),
-        url("img/nola.jpeg") no-repeat center;
+        url("img/sandiego.jpg") no-repeat center;
       background-size: cover;
     }
     .back h2 {
@@ -51,18 +51,54 @@
         Learning from Time Series for Health
       </h1>
       <h2 style="color:white;">
-        Workshop at NeurIPS 2022, Room 392
+        Workshop at NeurIPS 2025
       </h2>
       <h3 style="color:white;">
         Contact: ts4h.chairs@gmail.com
       </h3>
       <br>
       <!-- <a href="#speakers" class="btn" style="font-size:20px; display:inline-block">Invited Speakers</a> -->
-      <a href="index" class="btn" style="font-size:30px; color:white">Home</a>
-      <a href="call_for_papers" class="btn" style="font-size:30px; color:white">Call for Papers</a>
-      <a href="accepted_papers" class="btn" style="font-size:30px; color:white">Accepted Papers</a>
-      <a href="schedule" class="btn" style="font-size:30px; color:white">Schedule</a>
-      <!-- <a href="#organizers" class="btn" style="font-size:20px">Organizers</a> -->
+      <a href="index.html" class="btn" style="font-size:30px; color:white">Home</a>
+      <a href="call_for_papers.html" class="btn" style="font-size:30px; color:white">Call for Papers</a>
+      <!-- <a href="accepted_papers.html" class="btn" style="font-size:30px; color:white">Accepted Papers</a> -->
+      <a href="schedule.html" class="btn" style="font-size:30px; color:white">Schedule</a>
+      <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {
+          background-color: #f1f1f1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+        <div class="dropdown" style="display:inline-block;">
+        <a href="#" class="btn" style="font-size:30px; color:white">Prior Years</a>
+        <div class="dropdown-content">
+          <a href="neurips2022/index.html">NeurIPS 2022</a>
+          <!-- Add more years as needed -->
+        </div>
+      </div>
     </div>
 
   </div>
@@ -85,80 +121,79 @@
         <div class="row" style="font-size:16px">
           <h2><a name="schedule"></a>Schedule</h2>
           <hr>
-          <p><strong>2022 Workshop Agenda</strong></p>
-          <p></p>Location: New Orleans, LA</p>
-          <p> Friday, December 2, 2022 (all times in CST)</p>
+          <p><strong>2025 Workshop Agenda</strong></p>
+          <p></p>Location: San Diego, CA</p>
+          <p> Saturday, December 6, 2022 (all times in PST)</p>
           <!-- <p>
             9:00 - 9:15
             <strong> Opening remarks </strong>
           </p> -->
           <hr>
           <table class="table" border="2" cellpadding="2" cellspacing="2">
-            <!-- <thead>
-              <tr>
-                <th>Start Time</th>
-                <th>End Time</th>
-                <th>Title</th>
-              </tr>
-            </thead> -->
             <tbody>
               <tr>
-                <td> 09:00 - 09:15 </td>
-                <td> Opening remarks from the organizers </td>
+                  <td>09:00 - 09:15</td>
+                  <td>Opening remarks from the organizers</td>
               </tr>
               <tr>
-                <td> 09:15 - 09:45 </td>
-                <td> <strong>Invited talk: Yan Liu</strong>, Interpretability and Fairness of Deep Learning Models on Health Dataset  </td>
+                  <td>09:15 - 09:45</td>
+                  <td><strong>Invited Talk 1: Dr. Shwetak Patel</strong>, Professor at University of Washington, Leads AI for Google Personal Health<br>
+                      <em>Wearables and Mobile Health (Fitbit), Sensor Hardware</em></td>
               </tr>
               <tr>
-                <td> 9:45 - 10:15 </td>
-                <td> <strong>Invited Talk: Stephanie Hyland</strong>, Machine learning for intensive and perioperative care </td>
+                  <td>09:45 - 10:15</td>
+                  <td><strong>Invited Talk 2: Dr. Anna Goldenberg</strong>, Professor at University of Toronto, Researcher at SickKids Institute<br>
+                      <em>Biomedical Informatics, Genomics</em></td>
               </tr>
               <tr>
-                <td> 10:15 - 10:30 </td>
-                <td> Coffee Break </td>
+                  <td>10:15 - 11:15</td>
+                  <td>Coffee break and poster session 1 <em>(discussion time)</em></td>
               </tr>
               <tr>
-                <td> 10:30 - 11:00 </td>
-                <td> <strong>Invited Talk: Danielle Belgrave</strong>  </td>
+                  <td>11:15 - 11:45</td>
+                  <td><strong>Invited Talk 3: Dr. Jaya Narain</strong>, Research Scientist at Apple<br>
+                      <em>Wearables and Mobile Health (Apple Watch), Atypical Speech</em></td>
               </tr>
               <tr>
-                <td> 11:00 - 11:30 </td>
-                <td> Contributed talks for poster session 1 </td>
+                  <td>11:45 - 12:15</td>
+                  <td><strong>Invited Talk 4: Dr. Matthew McDermott</strong>, Assistant Professor at Columbia University<br>
+                      <em>Biomedical Informatics, Electronic Health Records</em></td>
               </tr>
               <tr>
-                <td> 11:30 - 12:30 </td>
-                <td> Coffee break and poster session 1 </td>
+                  <td>12:15 - 13:00</td>
+                  <td>Networking/Mentorship Lunch <em>(discussion time)</em></td>
               </tr>
               <tr>
-                <td> 12:30 - 01:30 </td>
-                <td> Mentorship lunch break </td>
+                  <td>13:00 - 14:00</td>
+                  <td>Thematic Spotlight Oral Presentations</td>
               </tr>
               <tr>
-                <td> 01:30 - 02:00 </td>
-                <td> <strong>Invited Talk: Emily Fox</strong>, AI-driven remote monitoring for type 1 diabetes </td>
+                  <td>14:00 - 15:00</td>
+                  <td>Coffee break and poster session 2 <em>(discussion time)</em></td>
               </tr>
               <tr>
-                <td> 02:00 - 02:30 </td>
-                <td> <strong>Invited Talk: David Sontag</strong>, Modeling multivariate time series of disease progression</td>
+                  <td>15:00 - 15:30</td>
+                  <td><strong>Invited Talk 5: Dr. Emily Fox</strong>, Professor at Stanford University, SVP of AI at inistro<br>
+                      <em>Causal Modeling, Neuroscience, Genomics</em></td>
               </tr>
               <tr>
-                <td> 02:30 - 03:00 </td>
-                <td> Contributed talks for poster session 2 </td>
+                  <td>15:30 - 16:00</td>
+                  <td><strong>Invited Talk 6: Dr. Edward Choi</strong>, Associate Professor at Korea Advanced Institute of Science & Technology<br>
+                      <em>Biomedical Informatics, Interpretability</em></td>
               </tr>
               <tr>
-                <td> 03:00 - 04:00 </td>
-                <td> Coffee break and poster session 2 </td>
+                  <td>16:00 - 16:15</td>
+                  <td>Coffee break <em>(discussion time)</em></td>
               </tr>
               <tr>
-                <td> 04:00 - 05:00 </td>
-                <td> Panel discussion on “Challenges and lessons learned in deploying ML time series models” </td>
+                  <td>16:15 - 17:00</td>
+                  <td>Interactive panel with Invited Speakers <em>(all attendees; discussion time)</em></td>
               </tr>
               <tr>
-                <td> 05:00 - 05:10 </td>
-                <td> Closing Remarks </td>
+                  <td>17:00</td>
+                  <td>Closing remarks from organizers</td>
               </tr>
-            </tbody>
+          </tbody>
           </table>
         </div>
       </div>
